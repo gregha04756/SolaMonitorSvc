@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SolaMonitorSvc", "SolaMonitorSvc.vcproj", "{01517AB5-31BE-417B-9D9A-1647493A97BB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SMSvcConfig", "SMSvcConfig\SMSvcConfig.vcproj", "{F2EF17DA-22F4-4089-97A9-20AC3B64B985}"
+	ProjectSection(ProjectDependencies) = postProject
+		{01517AB5-31BE-417B-9D9A-1647493A97BB} = {01517AB5-31BE-417B-9D9A-1647493A97BB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SMSvcControl", "SMSvcControl\SMSvcControl.vcproj", "{FE71869D-1EFD-4971-9522-C7B8FFADD9C6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{01517AB5-31BE-417B-9D9A-1647493A97BB} = {01517AB5-31BE-417B-9D9A-1647493A97BB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01517AB5-31BE-417B-9D9A-1647493A97BB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{01517AB5-31BE-417B-9D9A-1647493A97BB}.Debug|Win32.Build.0 = Debug|Win32
+		{01517AB5-31BE-417B-9D9A-1647493A97BB}.Release|Win32.ActiveCfg = Release|Win32
+		{01517AB5-31BE-417B-9D9A-1647493A97BB}.Release|Win32.Build.0 = Release|Win32
+		{F2EF17DA-22F4-4089-97A9-20AC3B64B985}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F2EF17DA-22F4-4089-97A9-20AC3B64B985}.Debug|Win32.Build.0 = Debug|Win32
+		{F2EF17DA-22F4-4089-97A9-20AC3B64B985}.Release|Win32.ActiveCfg = Release|Win32
+		{F2EF17DA-22F4-4089-97A9-20AC3B64B985}.Release|Win32.Build.0 = Release|Win32
+		{FE71869D-1EFD-4971-9522-C7B8FFADD9C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FE71869D-1EFD-4971-9522-C7B8FFADD9C6}.Debug|Win32.Build.0 = Debug|Win32
+		{FE71869D-1EFD-4971-9522-C7B8FFADD9C6}.Release|Win32.ActiveCfg = Release|Win32
+		{FE71869D-1EFD-4971-9522-C7B8FFADD9C6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
